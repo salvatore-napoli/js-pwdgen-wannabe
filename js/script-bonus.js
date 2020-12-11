@@ -18,5 +18,5 @@ userData.append('\nColore preferito: ' + favouriteColor + '.');
 
 if (name === '' || surname === '' || age === '' || birthYear === '' || favouriteColor === '') {
   alert('You cannot leave an empty field! Please repeat the procedure.');
-  userData.innerHTML = '<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-weight: bold; font-size: 50px;">Failed</div>';
+  userData.innerHTML = '<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-weight: bold; font-size: 50px;"><span style="padding-right: 100px; color:red;">Failed</span><a style="padding: 20px; border: 2px dashed black; border-radius: 100%; background-color: lightgreen; cursor: pointer;" onclick="window.location.reload();">Reload</a></div>';
 }
